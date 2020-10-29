@@ -1,4 +1,4 @@
-# postgres-investigate-queries
+# Handy Postgres Queries
 
 Repository of queries to investigate the state of Postgres databases.
 
