@@ -3,6 +3,11 @@
 The size of the database is an important factor in database performance.
 When the data is smaller then relatively more of it can be kept in cache (memory), speeding up your queries.
 
+## Total database size
+```sql
+select pg_size_pretty(pg_database_size('your_database_name'))
+```
+
 ## Table disk space
 To get an idea about the size of the tables execute the query below. It also shows how much space is occupied by the actual data, and how much by the indexes on the table.
 
