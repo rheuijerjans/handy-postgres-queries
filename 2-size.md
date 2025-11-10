@@ -91,5 +91,5 @@ select pg_size_pretty(pg_relation_size('your_schema.your_table')) as total_table
        avg(pg_column_size(your_column))                           as average_column_size_bytes,
        sum(pg_column_size(your_column)) * 100.0 /
        pg_relation_size('your_schema.your_table')                 as percentage
-from crisp.crisp_financial_statement_line;
+from your_table;
 ```
